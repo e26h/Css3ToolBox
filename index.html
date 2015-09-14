@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cn" ng-app="css3ToolBox" manifest="cache.appcache">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS3 工具箱</title>
+	<link rel="stylesheet" href="./libs/bs3/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="./libs/prism/prism.css"> -->
+	<!-- <link rel="stylesheet" href="./css/animation.css"> -->
+	<link rel="stylesheet" href="./css/style.css">
+	<!-- 预加载页面 -->
+	<link rel='prerender' href='./views/boxShadow.html'>
+</head>
+<body>
+	<!-- 导航 -->
+	<nav class="navbar navbar-default" role="navigation" ng-controller="ctlNav">
+		<!-- 折叠导航 -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" 
+				data-toggle="collapse" data-target=".navbar-ex1-collapse"
+				ng-click="isCollapsed = !isCollapsed">
+				<!-- ng-click="showNav = !showNav" -->
+				<span class="sr-only">折叠导航</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">{{toolType}}工具箱</a>
+		</div>
+		<!-- 导航项目 -->
+		 <!-- ng-if="showNav" -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse" 
+			collapse="!isCollapsed">
+			<ul class="nav navbar-nav">
+				<li ng-repeat="item in navs">
+					<a ng-href="#/{{item.id}}" ng-click="changeType(item.name)">
+						{{item.name}}
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- 主体 -->
+	<div ng-view class="container view"></div>
+	<!-- 框架与库 -->
+	<script src="./libs/angular/angular.min.js"></script>
+	<script src="./libs/angular/angular-route.min.js"></script>
+	<script src="./libs/angular/angular-animate.min.js"></script>
+	<script src="./libs/angular/angular-touch.min.js"></script>
+	<script src="./libs/bs3/ui-bootstrap-0.13.1.min.js"></script>
+	<!-- 控制器 -->
+	<script src="./Controller/ctlFont.js"></script>
+	<script src="./Controller/ctlShape.js"></script>
+	<script src="./Controller/ctlBoxShadow.js"></script>
+	<script src="./Controller/ctlSize.js"></script>
+	<script src="./Controller/ctlColor.js"></script>
+	<script src="./Controller/ctlFilter.js"></script>
+	<script src="./Controller/ctlMain.js"></script>
+	<!-- 着色器 -->
+	<!-- <script src="./libs/prism/prism.min.js"></script> -->
+	<!-- 合并的控制器 -->
+	<!-- <script src="./Controller/control.js"></script> -->
+</body>
+</html>

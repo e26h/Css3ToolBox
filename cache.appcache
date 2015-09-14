@@ -1,0 +1,13 @@
+CACHE MANIFEST
+
+CACHE:
+./libs/angular/angular.min.js
+./libs/angular/angular-animate.min.js
+./libs/angular/angular-route.min.js
+./libs/bs3/bootstrap.min.css
+
+NETWORK:
+*
+
+FALLBACK:
+404.html

@@ -1,0 +1,53 @@
+<form role="form" class="panel panel-default col-xs-12 col-sm-6 col-md-4">
+	<style>
+		.previewBox{
+			height:4em;
+			background: #ccc;
+		}
+	</style>
+	<div class="input-group">
+		<span class="input-group-addon">水平</span>
+		<input type="range" class="form-control" ng-model='shadow.h' 
+			min="-12" max="12" step="1" value="0"/>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">垂直</span>
+		<input type="range" class="form-control" ng-model='shadow.v' 
+			min="-12" max="12" step="1" value="0"/>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">模糊</span>
+		<input type="range" class="form-control" ng-model='shadow.b' 
+			min="0" max="12" step="1" value="0"/>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">外延</span>
+		<input type="range" class="form-control" ng-model='shadow.o' 
+			min="-12" max="12" step="1" value="0"/>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">颜色</span>
+		<input type="color" class="form-control" 
+			ng-model='shadow.c'/>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">模式</span>
+		<select class="form-control" ng-model='shadow.t'>
+			<option value="">外阴影</option>
+			<option value="inset">内阴影</option>
+		</select>
+	</div>
+<br>
+<br>
+	<div class="previewBox col-xs-6 col-sm-6 col-xs-offset-3 col-sm-offset-3" 
+		style="box-shadow: {{shadow.t}} {{shadow.h}}px {{shadow.v}}px {{shadow.b}}px {{shadow.o}}px {{shadow.c}}">&nbsp;</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<pre class="form-group"><code>.shadow{
+    box-shadow: {{shadow.t}} {{shadow.h}} {{shadow.v}} {{shadow.b}} {{shadow.o}} {{shadow.c}};
+}</code></pre>
+</form>

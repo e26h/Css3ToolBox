@@ -1,0 +1,179 @@
+/* http://prismjs.com/download.html?themes=prism-funky&languages=css+css-extras+clike+javascript+http&plugins=line-highlight+line-numbers */
+/**
+ * prism.js Funky theme
+ * Based on “Polyfilling the gaps” talk slides http://lea.verou.me/polyfilling-the-gaps/
+ * @author Lea Verou
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	font-family: Consolas, Monaco, 'Andale Mono', monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.2;
+
+	-moz-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: .4em .8em;
+	margin: .5em 0;
+	overflow: auto;
+	background: #272822;
+	background-size: 1em 1em;
+}
+
+code[class*="language-"] {
+	background: inherit;
+	color: #66d9ef;
+	/*box-shadow: -.3em 0 0 .3em black, .3em 0 0 .3em black;*/
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .2em;
+	border-radius: .3em;
+	box-shadow: none;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #aaa;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol {
+	color: #0cf;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin {
+	color: yellow;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.toke.variable {
+	color: yellowgreen;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: deeppink;
+}
+
+.token.regex,
+.token.important {
+	color: orange;
+}
+
+.token.important {
+	font-weight: bold;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*动画*/
+.view-container {
+  position: relative;
+}
+.view-container > .view.ng-animate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 500px;
+}
+.view.ng-enter {
+  transition:all .5s ease-in-out;
+  transform: translateX(100%);
+}
+.view.ng-enter.ng-enter-active {
+  transform: translateX(0%);
+}
+.view.ng-leave {
+  transition:all .5s ease-in-out;
+  transform: translateX(0%);
+}
+.view.ng-leave.ng-leave-active {
+  transform: translateX(-100%);
+}
+.view-anchor {
+  transition: all .5s ease-in-out ;
+}
+
+/*我的配置*/
+body{
+	background: #000;
+	color: #ccc;
+}
+.navbar{
+	background: #333;
+	color: #ccc;
+	border: none;
+}
+.navbar-nav li.active{
+	background: #000;
+	color: gold;
+}
+.navbar-nav li:hover{
+	color: yellowgreen;
+}
+.panel-default{
+	background: #303030;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: #111 solid 1px;
+}
+.input-group{
+	margin: 5px auto;
+}
+.form-control{
+	background: #303030;
+	color:#ccc;
+}
+.preview{
+	height: 4em;
+}
+.preview>input{
+	text-align: center;
+	border: none;
+	background: inherit;
+	width: 100%;
+	padding: 0;
+	height: 100%;
+}
+.pointer:hover{
+	cursor: pointer;
+}

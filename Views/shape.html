@@ -1,0 +1,83 @@
+<div class=" view">
+	<style>
+		.circle{
+			background: red;
+			width: 34px;
+			height: 34px;
+			padding: 0;
+			margin: 0;
+		}
+		.triangle{
+			width:0;
+			height:0;
+			overflow: hidden;
+		}
+		.list-group>li{
+			background: #333;
+		}
+	</style>
+	<table class="panel panel-default col-xs-12 col-sm-5">
+		<tr ng-repeat="rStyle in radiusStyles">
+			<td>
+				<div class="circle" style="{{rStyle}}">&nbsp;</div>
+			</td>
+			<td>
+				{{rStyle}}
+			</td>
+		</tr>
+	</table>
+
+	<div class="panel panel-default col-xs-12 col-sm-6 pull-right">
+		<p>三角基本样式</p>
+<pre>.triangle{
+	width:0;
+	height:0;
+	overflow: hidden;
+}</pre>
+		<div ng-repeat="tStyle in triangleStyles">
+			<div class="triangle" 
+				style="border-width: {{tStyle.width}};border-color: {{tStyle.color}};border-style: {{tStyle.style}};">&nbsp;</div>
+			<div>
+				<p>border-width: {{tStyle.width}};</p>
+				<p>border-color: {{tStyle.color}};</p>
+				<p>border-style: {{tStyle.style}};</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="panel panel-default col-xs-12 col-sm-6 pull-right">
+		<p>梯形基本样式</p>
+<pre>.ladder{
+	width:0;
+	height:0;
+	overflow: hidden;
+}</pre>
+		<div ng-repeat="tStyle in ladderStyles">
+			<div class="triangle" 
+				style="border-width: {{tStyle.width}};border-color: {{tStyle.color}};border-style: {{tStyle.style}};">&nbsp;</div>
+			<div>
+				<p>border-width: {{tStyle.width}};</p>
+				<p>border-color: {{tStyle.color}};</p>
+				<p>border-style: {{tStyle.style}};</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="panel panel-default col-xs-12 col-sm-6 pull-right">
+		<p>基本样式</p>
+<pre>.ladder{
+	width:0;
+	height:0;
+	overflow: hidden;
+}</pre>
+		<div ng-repeat="tStyle in ladderStyles">
+			<div class="triangle" 
+				style="border-width: {{tStyle.width}};border-color: {{tStyle.color}};border-style: {{tStyle.style}};">&nbsp;</div>
+			<div>
+				<p>border-width: {{tStyle.width}};</p>
+				<p>border-color: {{tStyle.color}};</p>
+				<p>border-style: {{tStyle.style}};</p>
+			</div>
+		</div>
+	</div>
+</div>

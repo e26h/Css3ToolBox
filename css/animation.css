@@ -1,0 +1,26 @@
+.view-container {
+  position: relative;
+}
+.view-container > .view.ng-animate {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 500px;
+}
+.view.ng-enter {
+  transition:all .5s linear;
+  transform: translateX(100%);
+}
+.view.ng-enter.ng-enter-active {
+  transform: translateX(0%);
+}
+.view.ng-leave {
+  transition:all .5s linear ;
+}
+.view.ng-leave.ng-leave-active {
+  transform: translateX(-100%);
+}
+.view-anchor {
+  transition: all .5s linear ;
+}

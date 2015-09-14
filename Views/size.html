@@ -1,0 +1,46 @@
+<section class="col-xs-12 col-sm-12" style="font-size: 16px;">
+	<style>
+.type-absolute {
+	background: #8e44ad
+}
+.type-font-relative {
+	background: #11866f
+}
+.type-viewport-percentage {
+	background: #d24436
+}
+.type-absolute:hover,
+.type-font-relative:hover,
+.type-viewport-percentage:hover{
+	filter: brightness(75%);
+	-webkit-filter: brightness(75%);
+}
+	</style>
+	<form class="form-inputs ng-pristine ng-valid ng-valid-min">
+		<div class="form-control">
+			<label for="htmlSize">html { font-size:</label>
+			<input min="10" ng-model="htmlSize" type="number" maxlength="2" 
+				class="ng-pristine ng-untouched ng-valid ng-valid-min" /> px; }
+		</div>
+		<div class="form-control">
+			<label for="bodySize">body { font-size:</label>
+			<input min="10" ng-model="bodySize" type="number" maxlength="2" 
+				class="ng-pristine ng-untouched ng-valid ng-valid-min" /> px; }
+		</div>
+		<div class="form-control">
+			<label for="units">.example { width:</label>
+			<input min="10" ng-model="unit" type="number" maxlength="2" 
+				class="ng-pristine ng-untouched ng-valid ng-valid-min" />; }
+		</div>
+	</form>
+	<div class="" ng-repeat="size in lengthSizes">
+		<div class="type-{{size.type}}" 
+			style="width:{{size.width}}{{size.unit}};height:10px"></div>
+		{{size.content}}
+	</div>
+	<!-- <div class="" ng-repeat="size in angleSizes">
+		<div class="type-{{size.type}}" 
+			style="width:{{size.width}}{{size.unit}};height:10px"></div>
+		{{size.content}}
+	</div> -->
+</section>

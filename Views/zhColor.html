@@ -1,0 +1,58 @@
+<!-- 中国传统颜色 -->
+<style>
+.lowLight{
+	color:#000;
+}
+.heightLight{
+	color:#ccc;
+}
+</style>
+<form role="form" class="panel panel-default col-xs-12 col-sm-12 col-md-12">
+	<div class="input-group">
+		<span class="input-group-addon">排序依据</span>
+		<select class="form-control" ng-model="orderVal">
+			<option value="hex">16进制值</option>
+			<option value="name">中文名</option>
+			<option value="r">红通道</option>
+			<option value="g">绿通道</option>
+			<option value="b">蓝通道</option>
+			<option value="h">色相</option>
+			<option value="s">饱和度</option>
+			<option value="l">亮度</option>
+		</select>
+		<span class="input-group-addon" ng-click="reverseItem()" class="pointer">{{sortIcon}}</span>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">显示列</span>
+		<select class="form-control" ng-model="nameMode">
+			<option value="hex">16进制值</option>
+			<option value="name">中文名</option>
+			<option value="r">红通道</option>
+			<option value="g">绿通道</option>
+			<option value="b">蓝通道</option>
+			<option value="h">色相</option>
+			<option value="s">饱和度</option>
+			<option value="l">亮度</option>
+		</select>
+	</div>
+</form>
+<table class="panel panel-default col-xs-12 col-sm-12 col-md-12 table table-hover">
+	<thead>
+		<tr>
+			<th class="col-sm-2">Hex</th>
+			<th class="col-sm-2">中文名</th>
+			<!-- <th class="col-sm-3">RGB</th> -->
+			<th class="col-sm-2">HSL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="color in colors | orderBy : orderVal : reverse" 
+			style="background-color:{{color.hex}};" 
+			ng-class="{lowLight: color.l > '80',heightLight: color.l <= '80'}">
+			<td>{{color.hex}}</td>
+			<td>{{color.name}}</td>
+			<!-- <td>{{color.rgb}}</td> -->
+			<td>{{color.hsl}}</td>
+		</tr>
+	</tbody>
+</table>

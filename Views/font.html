@@ -1,0 +1,96 @@
+<div class=" view">
+<form role="form" class="panel panel-default col-xs-12 col-sm-6 col-md-4">
+	<div class="input-group">
+		<span class="input-group-addon">字体</span>
+		<select class="form-control" ng-model="family">
+			<option ng-repeat="font in fontFamilys" value='{{font}}'
+				style="font-family:{{font}};">
+				{{font | trimQuote}}
+			</option>
+		</select>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">字号</span>
+		<input type="range" class="form-control" min="1" max="3" step="0.2"
+			ng-model='size'/>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">字形</span>
+		<!-- <div class="btn-group pull-right">
+			<button type="button" class="btn btn-default" >正常</button>
+			<button type="button" class="btn btn-default" >斜体</button>
+			<button type="button" class="btn btn-default" >倾斜</button>
+		</div> -->
+		<select class="form-control" ng-model="style">
+			<option value="normal">正常</option>
+			<option value="italic">斜体</option>
+			<option value="oblique">倾斜</option>
+		</select>
+	</div>
+	<div class="input-group">
+		<span class="input-group-addon">字粗</span>
+		<select class="form-control" ng-model="weight">
+			<option value="lighter">细体</option>
+			<option value="normal">正常</option>
+			<option value="bold">粗体</option>
+			<option value="bolder">特粗体</option>
+			<!-- <option value="number">数值</option> -->
+		</select>
+		<!-- <input type="range" class="form-control" min="100" max="900" ng-model='sizeNumber' ng-change="setFweight(sizeNumber)" step="100" ng-show="weight == 'number'"> -->
+	</div>
+	<div class="form-group">
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" value="tShadow" ng-click="hasShadow = !hasShadow"/>
+				阴影
+			</label>
+		</div>
+		<div ng-show="hasShadow">
+			<div class="input-group">
+				<span class="input-group-addon">水平</span>
+				<input type="range" class="form-control" min="-6" max="6" step="1"
+					ng-model='horizontal' value="0"/>
+			</div>
+			<div class="input-group">
+				<span class="input-group-addon">垂直</span>
+				<input type="range" class="form-control" min="-6" max="6" step="1"
+					ng-model='vertical' value="0"/>
+			</div>
+			<div class="input-group">
+				<span class="input-group-addon">模糊</span>
+				<input type="range" class="form-control" min="0" max="10" step="1"
+					ng-model='indistinct'  value="0"/>
+			</div>
+			<div class="input-group">
+				<span class="input-group-addon">颜色</span>
+				<input type="color" class="form-control" 
+					ng-model='sColor'/>
+			</div>
+		</div>
+	</div>
+</form>
+<article class="preview panel panel-default col-xs-12 col-sm-6 col-md-4">
+	<input value="Glib jocks quiz nymph to vex dwarf.永" autofocus
+		style="font:{{style}} {{weight}} {{size+'em'}} {{family}};text-shadow: {{horizontal+'px'}} {{vertical+'px'}} {{indistinct+'px'}} {{sColor}};" >
+</article>
+<pre class="panel panel-default col-xs-12 col-sm-6 col-md-4"><code class="language-css">@font-face {
+	font-family: {{family}};
+	src: url(./font.woff) format('woff');
+}
+.classname{
+	font: {{style}} {{weight}} {{size+'em'}} {{family}};
+	text-shadow: {{horizontal+'px'}} {{vertical+'px'}} {{indistinct+'px'}} {{sColor}};
+}
+.classname{
+	font-style: {{style}};
+	font-weight: {{weight}};
+	font-size: {{size+'em'}};
+	font-family: {{family}};
+	text-shadow: {{horizontal+'px'}} {{vertical+'px'}} {{indistinct+'px'}} {{sColor}};
+}</code>
+<button type="button" 
+	class="btn btn-default pull-right hidden-xs hidden-sm">
+	复制
+</button>
+</pre>
+</div>

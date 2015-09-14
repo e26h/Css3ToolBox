@@ -1,0 +1,561 @@
+[{
+	"id"  : "lightpink",
+	"name": "浅粉红",
+	"hex" : "#FFB6C1"
+},{
+	"id"  : "pink",
+	"name": "粉红",
+	"hex" : "#FFC0CB"
+},{
+	"id"  : "crimson",
+	"name": "猩红/深红",
+	"hex" : "#DC143C"
+},{
+	"id"  : "lavenderblush",
+	"name": "淡紫红",
+	"hex" : "#FFF0F5"
+},{
+	"id"  : "palevioletred",
+	"name": "弱紫罗兰红",
+	"hex" : "#DB7093"
+},{
+	"id"  : "hotpink",
+	"name": "热情的粉红",
+	"hex" : "#FF69B4"
+},{
+	"id"  : "deeppink",
+	"name": "深粉红",
+	"hex" : "#FF1493"
+},{
+	"id"  : "mediumvioletred",
+	"name": "中紫罗兰红",
+	"hex" : "#C71585"
+},{
+	"id"  : "orchid",
+	"name": "兰花紫",
+	"hex" : "#DA70D6"
+},{
+	"id"  : "thistle",
+	"name": "蓟",
+	"hex" : "#D8BFD8"
+},{
+	"id"  : "plum",
+	"name": "李子紫",
+	"hex" : "#DDA0DD"
+},{
+	"id"  : "violet",
+	"name": "紫罗兰",
+	"hex" : "#EE82EE"
+},{
+	"id"  : "magenta",
+	"name": "洋红/玫瑰红",
+	"hex" : "#FF00FF"
+},{
+	"id"  : "fuchsia",
+	"name": "灯笼海棠/紫红",
+	"hex" : "#FF00FF"
+},{
+	"id"  : "darkmagenta",
+	"name": "深洋红",
+	"hex" : "#8B008B"
+},{
+	"id"  : "purple",
+	"name": "紫色",
+	"hex" : "#800080"
+},{
+	"id"  : "mediumorchid",
+	"name": "中兰花紫",
+	"hex" : "#BA55D3"
+},{
+	"id"  : "darkviolet",
+	"name": "暗紫罗兰",
+	"hex" : "#9400D3"
+},{
+	"id"  : "darkorchid",
+	"name": "暗兰花紫",
+	"hex" : "#9932CC"
+},{
+	"id"  : "indigo",
+	"name": "靛青/紫兰色",
+	"hex" : "#4B0082"
+},{
+	"id"  : "blueviolet",
+	"name": "蓝紫罗兰",
+	"hex" : "#8A2BE2"
+},{
+	"id"  : "mediumpurple",
+	"name": "中紫色",
+	"hex" : "#9370DB"
+},{
+	"id"  : "mediumslateblue",
+	"name": "中板岩蓝",
+	"hex" : "#7B68EE"
+},{
+	"id"  : "slateblue",
+	"name": "板岩蓝",
+	"hex" : "#6A5ACD"
+},{
+	"id"  : "darkslateblue",
+	"name": "暗板岩蓝",
+	"hex" : "#483D8B"
+},{
+	"id"  : "lavender",
+	"name": "熏衣草淡紫",
+	"hex" : "#E6E6FA"
+},{
+	"id"  : "ghostwhite",
+	"name": "幽灵白",
+	"hex" : "#F8F8FF"
+},{
+	"id"  : "blue",
+	"name": "纯蓝",
+	"hex" : "#0000FF"
+},{
+	"id"  : "mediumblue",
+	"name": "中蓝色",
+	"hex" : "#0000CD"
+},{
+	"id"  : "midnightblue",
+	"name": "午夜蓝",
+	"hex" : "#191970"
+},{
+	"id"  : "darkblue",
+	"name": "暗蓝色",
+	"hex" : "#00008B"
+},{
+	"id"  : "navy",
+	"name": "海军蓝",
+	"hex" : "#000080"
+},{
+	"id"  : "royalblue",
+	"name": "皇家蓝/宝蓝",
+	"hex" : "#4169E1"
+},{
+	"id"  : "cornflowerblue",
+	"name": "矢车菊蓝",
+	"hex" : "#6495ED"
+},{
+	"id"  : "lightsteelblue",
+	"name": "亮钢蓝",
+	"hex" : "#B0C4DE"
+},{
+	"id"  : "lightslategray",
+	"name": "亮石板灰",
+	"hex" : "#778899"
+},{
+	"id"  : "slategray",
+	"name": "石板灰",
+	"hex" : "#708090"
+},{
+	"id"  : "dodgerblue",
+	"name": "道奇蓝",
+	"hex" : "#1E90FF"
+},{
+	"id"  : "aliceblue",
+	"name": "爱丽丝蓝",
+	"hex" : "#F0F8FF"
+},{
+	"id"  : "steelblue",
+	"name": "钢蓝/铁青",
+	"hex" : "#4682B4"
+},{
+	"id"  : "lightskyblue",
+	"name": "亮天蓝色",
+	"hex" : "#87CEFA"
+},{
+	"id"  : "skyblue",
+	"name": "天蓝色",
+	"hex" : "#87CEEB"
+},{
+	"id"  : "deepskyblue",
+	"name": "深天蓝",
+	"hex" : "#00BFFF"
+},{
+	"id"  : "lightblue",
+	"name": "亮蓝",
+	"hex" : "#ADD8E6"
+},{
+	"id"  : "powderblue",
+	"name": "火药青",
+	"hex" : "#B0E0E6"
+},{
+	"id"  : "cadetblue",
+	"name": "军服蓝",
+	"hex" : "#5F9EA0"
+},{
+	"id"  : "azure",
+	"name": "蔚蓝色",
+	"hex" : "#F0FFFF"
+},{
+	"id"  : "lightcyan",
+	"name": "淡青色",
+	"hex" : "#E0FFFF"
+},{
+	"id"  : "paleturquoise",
+	"name": "弱绿宝石",
+	"hex" : "#AFEEEE"
+},{
+	"id"  : "cyan",
+	"name": "青色",
+	"hex" : "#00FFFF"
+},{
+	"id"  : "aqua",
+	"name": "水色",
+	"hex" : "#00FFFF"
+},{
+	"id"  : "darkturquoise",
+	"name": "暗绿宝石",
+	"hex" : "#00CED1"
+},{
+	"id"  : "darkslategray",
+	"name": "暗石板灰",
+	"hex" : "#2F4F4F"
+},{
+	"id"  : "darkcyan",
+	"name": "暗青色",
+	"hex" : "#008B8B"
+},{
+	"id"  : "teal",
+	"name": "水鸭色",
+	"hex" : "#008080"
+},{
+	"id"  : "mediumturquoise",
+	"name": "中绿宝石",
+	"hex" : "#48D1CC"
+},{
+	"id"  : "lightseagreen",
+	"name": "浅海洋绿",
+	"hex" : "#20B2AA"
+},{
+	"id"  : "turquoise",
+	"name": "绿宝石",
+	"hex" : "#40E0D0"
+},{
+	"id"  : "aquamarine",
+	"name": "宝石碧绿",
+	"hex" : "#7FFFD4"
+},{
+	"id"  : "mediumaquamarine",
+	"name": "中宝石碧绿",
+	"hex" : "#66CDAA"
+},{
+	"id"  : "mediumspringgreen",
+	"name": "中春绿色",
+	"hex" : "#00FA9A"
+},{
+	"id"  : "mintcream",
+	"name": "薄荷奶油",
+	"hex" : "#F5FFFA"
+},{
+	"id"  : "springgreen",
+	"name": "春绿色",
+	"hex" : "#00FF7F"
+},{
+	"id"  : "mediumseagreen",
+	"name": "中海洋绿",
+	"hex" : "#3CB371"
+},{
+	"id"  : "seagreen",
+	"name": "海洋绿",
+	"hex" : "#2E8B57"
+},{
+	"id"  : "honeydew",
+	"name": "蜜瓜色",
+	"hex" : "#F0FFF0"
+},{
+	"id"  : "lightgreen",
+	"name": "淡绿色",
+	"hex" : "#90EE90"
+},{
+	"id"  : "palegreen",
+	"name": "弱绿色",
+	"hex" : "#98FB98"
+},{
+	"id"  : "darkseagreen",
+	"name": "暗海洋绿",
+	"hex" : "#8FBC8F"
+},{
+	"id"  : "limegreen",
+	"name": "闪光深绿",
+	"hex" : "#32CD32"
+},{
+	"id"  : "lime",
+	"name": "闪光绿",
+	"hex" : "#00FF00"
+},{
+	"id"  : "forestgreen",
+	"name": "森林绿",
+	"hex" : "#228B22"
+},{
+	"id"  : "green",
+	"name": "纯绿",
+	"hex" : "#008000"
+},{
+	"id"  : "darkgreen",
+	"name": "暗绿色",
+	"hex" : "#006400"
+},{
+	"id"  : "chartreuse",
+	"name": "查特酒绿",
+	"hex" : "#7FFF00"
+},{
+	"id"  : "lawngreen",
+	"name": "草坪绿",
+	"hex" : "#7CFC00"
+},{
+	"id"  : "greenyellow",
+	"name": "绿黄色",
+	"hex" : "#ADFF2F"
+},{
+	"id"  : "darkolivegreen",
+	"name": "暗橄榄绿",
+	"hex" : "#556B2F"
+},{
+	"id"  : "yellowgreen",
+	"name": "黄绿色",
+	"hex" : "#9ACD32"
+},{
+	"id"  : "olivedrab",
+	"name": "橄榄褐色",
+	"hex" : "#6B8E23"
+},{
+	"id"  : "beige",
+	"name": "米色/灰棕色",
+	"hex" : "#F5F5DC"
+},{
+	"id"  : "lightgoldenrodyellow",
+	"name": "亮菊黄",
+	"hex" : "#FAFAD2"
+},{
+	"id"  : "ivory",
+	"name": "象牙",
+	"hex" : "#FFFFF0"
+},{
+	"id"  : "lightyellow",
+	"name": "浅黄色",
+	"hex" : "#FFFFE0"
+},{
+	"id"  : "yellow",
+	"name": "纯黄",
+	"hex" : "#FFFF00"
+},{
+	"id"  : "olive",
+	"name": "橄榄",
+	"hex" : "#808000"
+},{
+	"id"  : "darkkhaki",
+	"name": "深卡叽布",
+	"hex" : "#BDB76B"
+},{
+	"id"  : "lemonchiffon",
+	"name": "柠檬绸",
+	"hex" : "#FFFACD"
+},{
+	"id"  : "palegoldenrod",
+	"name": "灰菊黄",
+	"hex" : "#EEE8AA"
+},{
+	"id"  : "khaki",
+	"name": "卡叽布",
+	"hex" : "#F0E68C"
+},{
+	"id"  : "gold",
+	"name": "金色",
+	"hex" : "#FFD700"
+},{
+	"id"  : "cornsilk",
+	"name": "玉米丝色",
+	"hex" : "#FFF8DC"
+},{
+	"id"  : "goldenrod",
+	"name": "金菊黄",
+	"hex" : "#DAA520"
+},{
+	"id"  : "darkgoldenrod",
+	"name": "暗金菊黄",
+	"hex" : "#B8860B"
+},{
+	"id"  : "floralwhite",
+	"name": "花的白色",
+	"hex" : "#FFFAF0"
+},{
+	"id"  : "oldlace",
+	"name": "旧蕾丝",
+	"hex" : "#FDF5E6"
+},{
+	"id"  : "wheat",
+	"name": "小麦色",
+	"hex" : "#F5DEB3"
+},{
+	"id"  : "moccasin",
+	"name": "鹿皮靴",
+	"hex" : "#FFE4B5"
+},{
+	"id"  : "orange",
+	"name": "橙色",
+	"hex" : "#FFA500"
+},{
+	"id"  : "papayawhip",
+	"name": "番木瓜",
+	"hex" : "#FFEFD5"
+},{
+	"id"  : "blanchedalmond",
+	"name": "发白的杏仁色",
+	"hex" : "#FFEBCD"
+},{
+	"id"  : "navajowhite",
+	"name": "土著白",
+	"hex" : "#FFDEAD"
+},{
+	"id"  : "antiquewhite",
+	"name": "古董白",
+	"hex" : "#FAEBD7"
+},{
+	"id"  : "tan",
+	"name": "茶色",
+	"hex" : "#D2B48C"
+},{
+	"id"  : "burlywood",
+	"name": "硬木色",
+	"hex" : "#DEB887"
+},{
+	"id"  : "bisque",
+	"name": "陶坯黄",
+	"hex" : "#FFE4C4"
+},{
+	"id"  : "darkorange",
+	"name": "深橙色",
+	"hex" : "#FF8C00"
+},{
+	"id"  : "linen",
+	"name": "亚麻布",
+	"hex" : "#FAF0E6"
+},{
+	"id"  : "peru",
+	"name": "秘鲁",
+	"hex" : "#CD853F"
+},{
+	"id"  : "peachpuff",
+	"name": "桃肉色",
+	"hex" : "#FFDAB9"
+},{
+	"id"  : "sandybrown",
+	"name": "沙棕色",
+	"hex" : "#F4A460"
+},{
+	"id"  : "chocolate",
+	"name": "巧克力",
+	"hex" : "#D2691E"
+},{
+	"id"  : "saddlebrown",
+	"name": "马鞍棕色",
+	"hex" : "#8B4513"
+},{
+	"id"  : "seashell",
+	"name": "海贝壳",
+	"hex" : "#FFF5EE"
+},{
+	"id"  : "sienna",
+	"name": "黄土赭色",
+	"hex" : "#A0522D"
+},{
+	"id"  : "lightsalmon",
+	"name": "浅鲑鱼肉色",
+	"hex" : "#FFA07A"
+},{
+	"id"  : "coral",
+	"name": "珊瑚",
+	"hex" : "#FF7F50"
+},{
+	"id"  : "orangered",
+	"name": "橙红色",
+	"hex" : "#FF4500"
+},{
+	"id"  : "darksalmon",
+	"name": "深鲜肉/鲑鱼色",
+	"hex" : "#E9967A"
+},{
+	"id"  : "tomato",
+	"name": "番茄红",
+	"hex" : "#FF6347"
+},{
+	"id"  : "mistyrose",
+	"name": "薄雾玫瑰",
+	"hex" : "#FFE4E1"
+},{
+	"id"  : "salmon",
+	"name": "鲜肉/鲑鱼色",
+	"hex" : "#FA8072"
+},{
+	"id"  : "snow",
+	"name": "雪",
+	"hex" : "#FFFAFA"
+},{
+	"id"  : "lightcoral",
+	"name": "淡珊瑚色",
+	"hex" : "#F08080"
+},{
+	"id"  : "rosybrown",
+	"name": "玫瑰棕色",
+	"hex" : "#BC8F8F"
+},{
+	"id"  : "indianred",
+	"name": "印度红",
+	"hex" : "#CD5C5C"
+},{
+	"id"  : "red",
+	"name": "纯红",
+	"hex" : "#FF0000"
+},{
+	"id"  : "brown",
+	"name": "棕色",
+	"hex" : "#A52A2A"
+},{
+	"id"  : "firebrick",
+	"name": "耐火砖",
+	"hex" : "#B22222"
+},{
+	"id"  : "darkred",
+	"name": "深红色",
+	"hex" : "#8B0000"
+},{
+	"id"  : "maroon",
+	"name": "栗色",
+	"hex" : "#800000"
+},{
+	"id"  : "white",
+	"name": "纯白",
+	"hex" : "#FFFFFF"
+},{
+	"id"  : "whitesmoke",
+	"name": "白烟",
+	"hex" : "#F5F5F5"
+},{
+	"id"  : "gainsboro",
+	"name": "庚斯博罗灰色",
+	"hex" : "#DCDCDC"
+},{
+	"id"  : "lightgrey",
+	"name": "浅灰色",
+	"hex" : "#D3D3D3"
+},{
+	"id"  : "silver",
+	"name": "银灰色",
+	"hex" : "#C0C0C0"
+},{
+	"id"  : "darkgray",
+	"name": "深灰色",
+	"hex" : "#A9A9A9"
+},{
+	"id"  : "gray",
+	"name": "灰色",
+	"hex" : "#808080"
+},{
+	"id"  : "dimgray",
+	"name": "暗淡的灰色",
+	"hex" : "#696969"
+},{
+	"id"  : "black",
+	"name": "纯黑",
+	"hex" : "#000000"
+}]

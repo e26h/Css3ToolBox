@@ -1,0 +1,19 @@
+{
+  "name": "Css3ToolBox",
+  "version": "0.1.0",
+  "homepage": "https://github.com/e26h/Css3ToolBox",
+  "authors": [
+    "e26h <872047734@qq.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular-bootstrap": "~0.13.1",
+    "angular": "~1.4.5",
+    "bootstrap": "~3.3.5",
+    "jQuery": "~2.1.4",
+    "ui-router": "~0.2.15",
+    "angular-animate": "~1.4.5",
+    "angular-touch": "~1.4.5",
+    "angular-route": "~1.4.5"
+  }
+}
